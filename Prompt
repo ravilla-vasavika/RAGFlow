@@ -1,0 +1,2 @@
+create a RAG application where user an upload pdf on the webpage, dynamically create embeddings according to submission, show the records for the users to select and prompt based on the records, use python FastAPI,OpenAI as LLM and FAISS as vector store.
+Give me the implementation plan for this and separate the backend, frontend into subfolders and setup the python environment
