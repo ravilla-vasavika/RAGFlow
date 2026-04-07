@@ -1,0 +1,450 @@
+2026-04-02 16:38:23 - app.main - INFO - ==================================================
+2026-04-02 16:38:23 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 16:38:23 - app.main - INFO - ==================================================
+2026-04-02 16:38:23 - app.main - ERROR - CRITICAL: OPENAI_API_KEY not set in environment
+2026-04-02 16:39:39 - app.main - INFO - ==================================================
+2026-04-02 16:39:39 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 16:39:39 - app.main - INFO - ==================================================
+2026-04-02 16:39:39 - app.main - ERROR - CRITICAL: OPENAI_API_KEY not set in environment
+2026-04-02 16:39:59 - app.main - INFO - ==================================================
+2026-04-02 16:39:59 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 16:39:59 - app.main - INFO - ==================================================
+2026-04-02 16:39:59 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 16:39:59 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 16:39:59 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 16:39:59 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 16:39:59 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 16:39:59 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:39:59 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 16:39:59 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 16:39:59 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 16:39:59 - app.main - INFO -   - Vectors in index: 0
+2026-04-02 16:39:59 - app.main - ERROR - Failed to initialize embeddings service: __init__() got an unexpected keyword argument 'proxies'
+2026-04-02 16:40:02 - app.main - INFO - ==================================================
+2026-04-02 16:40:02 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 16:40:02 - app.main - INFO - ==================================================
+2026-04-02 16:40:02 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 16:40:02 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 16:40:02 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 16:40:02 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 16:40:02 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 16:40:02 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:40:02 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 16:40:02 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 16:40:02 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 16:40:02 - app.main - INFO -   - Vectors in index: 0
+2026-04-02 16:40:02 - app.main - ERROR - Failed to initialize embeddings service: __init__() got an unexpected keyword argument 'proxies'
+2026-04-02 16:40:55 - app.main - INFO - ==================================================
+2026-04-02 16:40:55 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 16:40:55 - app.main - INFO - ==================================================
+2026-04-02 16:40:55 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 16:40:55 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 16:40:55 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 16:40:55 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 16:40:55 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 16:40:55 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:40:55 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 16:40:55 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 16:40:55 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 16:40:55 - app.main - INFO -   - Vectors in index: 0
+2026-04-02 16:40:55 - app.main - ERROR - Failed to initialize embeddings service: __init__() got an unexpected keyword argument 'proxies'
+2026-04-02 16:43:19 - app.main - INFO - ==================================================
+2026-04-02 16:43:19 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 16:43:19 - app.main - INFO - ==================================================
+2026-04-02 16:43:19 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 16:43:19 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 16:43:19 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 16:43:19 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 16:43:19 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 16:43:19 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:43:19 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 16:43:19 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 16:43:19 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 16:43:19 - app.main - INFO -   - Vectors in index: 0
+2026-04-02 16:43:19 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 16:43:19 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 16:43:19 - app.main - INFO - ==================================================
+2026-04-02 16:43:19 - app.main - INFO - All services ready — application startup complete
+2026-04-02 16:43:19 - app.main - INFO - ==================================================
+2026-04-02 16:43:56 - app.api.documents - INFO - Listing documents
+2026-04-02 16:43:56 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:43:56 - app.api.documents - INFO - Found 0 documents
+2026-04-02 16:44:16 - app.api.documents - INFO - Listing documents
+2026-04-02 16:44:16 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:44:16 - app.api.documents - INFO - Found 0 documents
+2026-04-02 16:44:24 - app.services.ingestion - INFO - PDF validation passed: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmpr10m66_o/EXHALE_technical_package-508.pdf (0.74 MB)
+2026-04-02 16:44:24 - app.services.ingestion - INFO - Extracting text from PDF: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmpr10m66_o/EXHALE_technical_package-508.pdf
+2026-04-02 16:44:27 - app.services.ingestion - INFO - Extracted 130947 characters from PDF
+2026-04-02 16:44:27 - app.services.ingestion - INFO - Chunking text into pieces (target size: 512)
+2026-04-02 16:44:27 - app.services.ingestion - INFO - Created 282 chunks
+2026-04-02 16:44:27 - app.services.embeddings - INFO - Generating embeddings for 282 texts
+2026-04-02 16:44:31 - app.services.embeddings - INFO - Generated embeddings with shape: (282, 1536)
+2026-04-02 16:44:31 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 16:44:31 - app.services.vector_store - INFO - Added 282 chunks to vector store
+2026-04-02 16:44:31 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 16:44:31 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:44:31 - app.utils.db - INFO - Inserted document: 2bb26913-1669-44b4-939a-f839e352159c (EXHALE_technical_package-508.pdf)
+2026-04-02 16:44:31 - app.utils.db - INFO - Inserted 282 chunks for document: 2bb26913-1669-44b4-939a-f839e352159c
+2026-04-02 16:44:31 - app.api.upload - INFO - Successfully processed document: 2bb26913-1669-44b4-939a-f839e352159c
+2026-04-02 16:44:42 - app.api.query - INFO - Processing query: what is asthma...
+2026-04-02 16:44:42 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is asthma...
+2026-04-02 16:44:42 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 16:44:44 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 16:44:44 - app.services.vector_store - WARNING - Similarity search called on empty vector store
+2026-04-02 16:44:44 - app.services.retrieval - INFO - Retrieved 0 chunks
+2026-04-02 16:44:44 - app.api.query - INFO - No relevant chunks found for query
+2026-04-02 16:45:46 - app.api.documents - INFO - Starting FAISS index rebuild from database...
+2026-04-02 16:45:46 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:45:46 - app.api.documents - INFO - Found 282 active chunks to re-embed
+2026-04-02 16:45:46 - app.services.embeddings - INFO - Generating embeddings for 282 texts
+2026-04-02 16:45:48 - app.services.embeddings - INFO - Generated embeddings with shape: (282, 1536)
+2026-04-02 16:45:48 - app.api.documents - INFO - Cleared old FAISS index at ./data/faiss_index
+2026-04-02 16:45:48 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 16:45:48 - app.services.vector_store - INFO - Added 282 chunks to vector store
+2026-04-02 16:45:48 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 16:45:48 - app.api.documents - INFO - Successfully rebuilt FAISS index with 282 chunks
+2026-04-02 16:45:48 - app.api.documents - INFO - Listing documents
+2026-04-02 16:45:48 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:45:48 - app.api.documents - INFO - Found 1 documents
+2026-04-02 16:45:57 - app.api.query - INFO - Processing query: what is asthma...
+2026-04-02 16:45:57 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is asthma...
+2026-04-02 16:45:57 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 16:45:57 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 16:45:57 - app.services.vector_store - WARNING - Similarity search called on empty vector store
+2026-04-02 16:45:57 - app.services.retrieval - INFO - Retrieved 0 chunks
+2026-04-02 16:45:57 - app.api.query - INFO - No relevant chunks found for query
+2026-04-02 16:49:35 - app.api.documents - INFO - Listing documents
+2026-04-02 16:49:35 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:49:35 - app.api.documents - INFO - Found 1 documents
+2026-04-02 16:50:14 - app.api.query - INFO - Processing query: what is asthma...
+2026-04-02 16:50:14 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is asthma...
+2026-04-02 16:50:14 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 16:50:14 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 16:50:14 - app.services.vector_store - WARNING - Similarity search called on empty vector store
+2026-04-02 16:50:14 - app.services.retrieval - INFO - Retrieved 0 chunks
+2026-04-02 16:50:14 - app.api.query - INFO - No relevant chunks found for query
+2026-04-02 16:51:24 - app.api.documents - INFO - Starting FAISS index rebuild from database...
+2026-04-02 16:51:24 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:51:24 - app.api.documents - INFO - Found 282 active chunks to re-embed
+2026-04-02 16:51:24 - app.services.embeddings - INFO - Generating embeddings for 282 texts
+2026-04-02 16:51:26 - app.services.embeddings - INFO - Generated embeddings with shape: (282, 1536)
+2026-04-02 16:51:26 - app.api.documents - INFO - Cleared old FAISS index at ./data/faiss_index
+2026-04-02 16:51:26 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 16:51:26 - app.services.vector_store - INFO - Added 282 chunks to vector store
+2026-04-02 16:51:26 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 16:51:26 - app.api.documents - INFO - Successfully rebuilt FAISS index with 282 chunks
+2026-04-02 16:51:36 - app.api.query - INFO - Processing query: what is asthma...
+2026-04-02 16:51:36 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is asthma...
+2026-04-02 16:51:36 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 16:51:37 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 16:51:37 - app.services.vector_store - WARNING - Similarity search called on empty vector store
+2026-04-02 16:51:37 - app.services.retrieval - INFO - Retrieved 0 chunks
+2026-04-02 16:51:37 - app.api.query - INFO - No relevant chunks found for query
+2026-04-02 16:52:08 - app.api.documents - INFO - Listing documents
+2026-04-02 16:52:08 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 16:52:08 - app.api.documents - INFO - Found 1 documents
+2026-04-02 16:54:07 - app.api.query - INFO - Processing query: what is the exhale technical package?...
+2026-04-02 16:54:07 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is the exhale technical package?...
+2026-04-02 16:54:07 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 16:54:08 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 16:54:08 - app.services.vector_store - WARNING - Similarity search called on empty vector store
+2026-04-02 16:54:08 - app.services.retrieval - INFO - Retrieved 0 chunks
+2026-04-02 16:54:08 - app.api.query - INFO - No relevant chunks found for query
+2026-04-02 16:55:26 - app.api.query - INFO - Processing query: what is asthma...
+2026-04-02 16:55:26 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is asthma...
+2026-04-02 16:55:26 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 16:55:27 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 16:55:27 - app.services.vector_store - WARNING - Similarity search called on empty vector store
+2026-04-02 16:55:27 - app.services.retrieval - INFO - Retrieved 0 chunks
+2026-04-02 16:55:27 - app.api.query - INFO - No relevant chunks found for query
+2026-04-02 17:05:37 - app.main - INFO - ==================================================
+2026-04-02 17:05:37 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 17:05:37 - app.main - INFO - ==================================================
+2026-04-02 17:05:37 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 17:05:37 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 17:05:37 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 17:05:37 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 17:05:37 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 17:05:37 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:05:37 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 17:05:37 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:05:37 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:05:37 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 17:05:37 - app.main - INFO -   - Vectors in index: 282
+2026-04-02 17:05:37 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 17:05:37 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 17:05:37 - app.main - INFO - ==================================================
+2026-04-02 17:05:37 - app.main - INFO - All services ready — application startup complete
+2026-04-02 17:05:37 - app.main - INFO - ==================================================
+2026-04-02 17:07:45 - app.api.documents - INFO - Listing documents
+2026-04-02 17:07:45 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:07:45 - app.api.documents - INFO - Found 1 documents
+2026-04-02 17:07:51 - app.services.ingestion - INFO - PDF validation passed: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmppnpeo_vw/EXHALE_technical_package-508.pdf (0.74 MB)
+2026-04-02 17:07:51 - app.services.ingestion - INFO - Extracting text from PDF: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmppnpeo_vw/EXHALE_technical_package-508.pdf
+2026-04-02 17:07:54 - app.services.ingestion - INFO - Extracted 130947 characters from PDF
+2026-04-02 17:07:54 - app.services.ingestion - INFO - Chunking text into pieces (target size: 512)
+2026-04-02 17:07:54 - app.services.ingestion - INFO - Created 282 chunks
+2026-04-02 17:07:54 - app.services.embeddings - INFO - Generating embeddings for 282 texts
+2026-04-02 17:07:57 - app.services.embeddings - INFO - Generated embeddings with shape: (282, 1536)
+2026-04-02 17:07:57 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:07:57 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:07:57 - app.services.vector_store - INFO - Added 282 chunks to vector store
+2026-04-02 17:07:57 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 17:07:57 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:07:57 - app.utils.db - INFO - Inserted document: ae3e3e67-4248-4b51-a223-d83b9805711f (EXHALE_technical_package-508.pdf)
+2026-04-02 17:07:57 - app.utils.db - INFO - Inserted 282 chunks for document: ae3e3e67-4248-4b51-a223-d83b9805711f
+2026-04-02 17:07:57 - app.api.upload - INFO - Successfully processed document: ae3e3e67-4248-4b51-a223-d83b9805711f
+2026-04-02 17:08:22 - app.api.documents - INFO - Listing documents
+2026-04-02 17:08:22 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:08:22 - app.api.documents - INFO - Found 2 documents
+2026-04-02 17:08:45 - app.api.documents - INFO - Deleting document: 2bb26913-1669-44b4-939a-f839e352159c
+2026-04-02 17:08:45 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:08:45 - app.utils.db - INFO - Soft-deleted document: 2bb26913-1669-44b4-939a-f839e352159c
+2026-04-02 17:08:45 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:08:45 - app.services.vector_store - INFO - Vector store loaded — 564 vectors, 0 soft-deleted
+2026-04-02 17:08:45 - app.services.vector_store - INFO - Soft-deleted document: 2bb26913-1669-44b4-939a-f839e352159c
+2026-04-02 17:08:45 - app.services.vector_store - INFO - Starting FAISS index rebuild...
+2026-04-02 17:08:45 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 17:08:45 - app.services.vector_store - INFO - Index rebuild complete. Active chunks: 282
+2026-04-02 17:08:45 - app.api.documents - INFO - Vector index rebuilt after deletion
+2026-04-02 17:08:45 - app.api.documents - INFO - Successfully deleted document: 2bb26913-1669-44b4-939a-f839e352159c
+2026-04-02 17:09:20 - app.api.documents - INFO - Listing documents
+2026-04-02 17:09:20 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:09:20 - app.api.documents - INFO - Found 1 documents
+2026-04-02 17:23:09 - app.main - INFO - ==================================================
+2026-04-02 17:23:09 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 17:23:09 - app.main - INFO - ==================================================
+2026-04-02 17:23:09 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 17:23:09 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 17:23:09 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 17:23:09 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 17:23:09 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 17:23:09 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:23:09 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 17:23:09 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:23:09 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:23:09 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 17:23:09 - app.main - INFO -   - Vectors in index: 282
+2026-04-02 17:23:09 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 17:23:09 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 17:23:09 - app.main - INFO - ==================================================
+2026-04-02 17:23:09 - app.main - INFO - All services ready — application startup complete
+2026-04-02 17:23:09 - app.main - INFO - ==================================================
+2026-04-02 17:30:19 - app.main - INFO - ==================================================
+2026-04-02 17:30:19 - app.main - INFO - Shutting down DocuMind Backend
+2026-04-02 17:30:19 - app.main - INFO - ==================================================
+2026-04-02 17:30:20 - app.main - INFO - ==================================================
+2026-04-02 17:30:20 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 17:30:20 - app.main - INFO - ==================================================
+2026-04-02 17:30:20 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 17:30:20 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 17:30:20 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 17:30:20 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 17:30:20 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 17:30:20 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:30:20 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 17:30:20 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:30:20 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:30:20 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 17:30:20 - app.main - INFO -   - Vectors in index: 282
+2026-04-02 17:30:20 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 17:30:20 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 17:30:20 - app.main - INFO - ==================================================
+2026-04-02 17:30:20 - app.main - INFO - All services ready — application startup complete
+2026-04-02 17:30:20 - app.main - INFO - ==================================================
+2026-04-02 17:30:45 - app.main - INFO - ==================================================
+2026-04-02 17:30:45 - app.main - INFO - Shutting down DocuMind Backend
+2026-04-02 17:30:45 - app.main - INFO - ==================================================
+2026-04-02 17:31:45 - app.main - INFO - ==================================================
+2026-04-02 17:31:45 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 17:31:45 - app.main - INFO - ==================================================
+2026-04-02 17:31:45 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 17:31:45 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 17:31:45 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 17:31:45 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 17:31:45 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 17:31:45 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:31:45 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 17:31:45 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:31:45 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:31:45 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 17:31:45 - app.main - INFO -   - Vectors in index: 282
+2026-04-02 17:31:45 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 17:31:45 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 17:31:45 - app.main - INFO - ==================================================
+2026-04-02 17:31:45 - app.main - INFO - All services ready — application startup complete
+2026-04-02 17:31:45 - app.main - INFO - ==================================================
+2026-04-02 17:32:06 - app.main - INFO - ==================================================
+2026-04-02 17:32:06 - app.main - INFO - Shutting down DocuMind Backend
+2026-04-02 17:32:06 - app.main - INFO - ==================================================
+2026-04-02 17:32:07 - app.main - INFO - ==================================================
+2026-04-02 17:32:07 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 17:32:07 - app.main - INFO - ==================================================
+2026-04-02 17:32:07 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 17:32:07 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 17:32:07 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 17:32:07 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 17:32:07 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 17:32:07 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:32:07 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 17:32:07 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:32:07 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:32:07 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 17:32:07 - app.main - INFO -   - Vectors in index: 282
+2026-04-02 17:32:07 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 17:32:07 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 17:32:07 - app.main - INFO - ==================================================
+2026-04-02 17:32:07 - app.main - INFO - All services ready — application startup complete
+2026-04-02 17:32:07 - app.main - INFO - ==================================================
+2026-04-02 17:32:21 - app.main - INFO - ==================================================
+2026-04-02 17:32:21 - app.main - INFO - Shutting down DocuMind Backend
+2026-04-02 17:32:21 - app.main - INFO - ==================================================
+2026-04-02 17:32:21 - app.main - INFO - ==================================================
+2026-04-02 17:32:21 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 17:32:21 - app.main - INFO - ==================================================
+2026-04-02 17:32:21 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 17:32:21 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 17:32:21 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 17:32:21 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 17:32:21 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 17:32:21 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:32:21 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 17:32:21 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:32:21 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:32:21 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 17:32:21 - app.main - INFO -   - Vectors in index: 282
+2026-04-02 17:32:21 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 17:32:21 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 17:32:21 - app.main - INFO - ==================================================
+2026-04-02 17:32:21 - app.main - INFO - All services ready — application startup complete
+2026-04-02 17:32:21 - app.main - INFO - ==================================================
+2026-04-02 17:33:46 - app.main - INFO - ==================================================
+2026-04-02 17:33:46 - app.main - INFO - Starting DocuMind Backend
+2026-04-02 17:33:46 - app.main - INFO - ==================================================
+2026-04-02 17:33:46 - app.main - INFO - ✓ Environment variables loaded
+2026-04-02 17:33:46 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-02 17:33:46 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-02 17:33:46 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-02 17:33:46 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-02 17:33:46 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-02 17:33:46 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-02 17:33:46 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-02 17:33:46 - app.services.vector_store - INFO - Vector store loaded — 282 vectors, 0 soft-deleted
+2026-04-02 17:33:46 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-02 17:33:46 - app.main - INFO -   - Vectors in index: 282
+2026-04-02 17:33:46 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-02 17:33:46 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-02 17:33:46 - app.main - INFO - ==================================================
+2026-04-02 17:33:46 - app.main - INFO - All services ready — application startup complete
+2026-04-02 17:33:46 - app.main - INFO - ==================================================
+2026-04-02 17:35:25 - app.api.documents - INFO - Deleting document: ae3e3e67-4248-4b51-a223-d83b9805711f
+2026-04-02 17:35:25 - app.utils.db - INFO - Soft-deleted document: ae3e3e67-4248-4b51-a223-d83b9805711f
+2026-04-02 17:35:25 - app.services.vector_store - INFO - Soft-deleted document: ae3e3e67-4248-4b51-a223-d83b9805711f
+2026-04-02 17:35:25 - app.services.vector_store - INFO - Starting FAISS index rebuild...
+2026-04-02 17:35:25 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 17:35:25 - app.services.vector_store - INFO - Index rebuild complete. Active chunks: 0
+2026-04-02 17:35:25 - app.api.documents - INFO - Vector index rebuilt after deletion
+2026-04-02 17:35:25 - app.api.documents - INFO - Successfully deleted document: ae3e3e67-4248-4b51-a223-d83b9805711f
+2026-04-02 17:35:28 - app.api.documents - INFO - Listing documents
+2026-04-02 17:35:28 - app.api.documents - INFO - Found 0 documents
+2026-04-02 17:35:35 - app.api.documents - INFO - Listing documents
+2026-04-02 17:35:35 - app.api.documents - INFO - Found 0 documents
+2026-04-02 17:36:42 - app.services.ingestion - INFO - PDF validation passed: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmpdbuy8upn/EXHALE_technical_package-508.pdf (0.74 MB)
+2026-04-02 17:36:42 - app.services.ingestion - INFO - Extracting text from PDF: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmpdbuy8upn/EXHALE_technical_package-508.pdf
+2026-04-02 17:36:44 - app.services.ingestion - INFO - Extracted 130947 characters from PDF
+2026-04-02 17:36:44 - app.services.ingestion - INFO - Chunking text into pieces (target size: 512)
+2026-04-02 17:36:44 - app.services.ingestion - INFO - Created 282 chunks
+2026-04-02 17:36:44 - app.services.embeddings - INFO - Generating embeddings for 282 texts
+2026-04-02 17:36:47 - app.services.embeddings - INFO - Generated embeddings with shape: (282, 1536)
+2026-04-02 17:36:47 - app.services.vector_store - INFO - Added 282 chunks to vector store
+2026-04-02 17:36:47 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 17:36:47 - app.utils.db - INFO - Inserted document: cb633f97-9a78-44a0-b646-ff52383945f8 (EXHALE_technical_package-508.pdf)
+2026-04-02 17:36:47 - app.utils.db - INFO - Inserted 282 chunks for document: cb633f97-9a78-44a0-b646-ff52383945f8
+2026-04-02 17:36:47 - app.api.upload - INFO - Successfully processed document: cb633f97-9a78-44a0-b646-ff52383945f8
+2026-04-02 17:44:26 - app.api.query - INFO - Processing query: what is this document about?...
+2026-04-02 17:44:26 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is this document about?...
+2026-04-02 17:44:26 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 17:44:29 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 17:44:29 - app.services.vector_store - INFO - Similarity search returned 5 results
+2026-04-02 17:44:29 - app.services.retrieval - INFO - Retrieved 5 chunks
+2026-04-02 17:44:29 - app.services.llm - INFO - Sending request to gpt-4o-mini
+2026-04-02 17:44:34 - app.api.query - INFO - Answer generated successfully
+2026-04-02 17:45:58 - app.services.ingestion - INFO - PDF validation passed: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmp9iv84agf/GSCARR-2024-0338.pdf (1.14 MB)
+2026-04-02 17:45:58 - app.services.ingestion - INFO - Extracting text from PDF: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmp9iv84agf/GSCARR-2024-0338.pdf
+2026-04-02 17:45:59 - app.services.ingestion - INFO - Extracted 45302 characters from PDF
+2026-04-02 17:45:59 - app.services.ingestion - INFO - Chunking text into pieces (target size: 512)
+2026-04-02 17:45:59 - app.services.ingestion - INFO - Created 99 chunks
+2026-04-02 17:45:59 - app.services.embeddings - INFO - Generating embeddings for 99 texts
+2026-04-02 17:46:01 - app.services.embeddings - INFO - Generated embeddings with shape: (99, 1536)
+2026-04-02 17:46:01 - app.services.vector_store - INFO - Added 99 chunks to vector store
+2026-04-02 17:46:01 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-02 17:46:01 - app.utils.db - INFO - Inserted document: 41f2799d-88b7-490e-801e-f3faf5fdfb26 (GSCARR-2024-0338.pdf)
+2026-04-02 17:46:01 - app.utils.db - INFO - Inserted 99 chunks for document: 41f2799d-88b7-490e-801e-f3faf5fdfb26
+2026-04-02 17:46:01 - app.api.upload - INFO - Successfully processed document: 41f2799d-88b7-490e-801e-f3faf5fdfb26
+2026-04-02 17:46:35 - app.api.query - INFO - Processing query: what is the impact of global climate change?...
+2026-04-02 17:46:35 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is the impact of global climate change?...
+2026-04-02 17:46:35 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-02 17:46:35 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-02 17:46:35 - app.services.vector_store - INFO - Similarity search returned 5 results
+2026-04-02 17:46:35 - app.services.retrieval - INFO - Retrieved 5 chunks
+2026-04-02 17:46:35 - app.services.llm - INFO - Sending request to gpt-4o-mini
+2026-04-02 17:46:42 - app.api.query - INFO - Answer generated successfully
+2026-04-03 09:07:33 - app.api.documents - INFO - Listing documents
+2026-04-03 09:07:33 - app.api.documents - INFO - Found 2 documents
+2026-04-03 09:08:02 - app.api.query - INFO - Processing query: what is the impact of climate change on...
+2026-04-03 09:08:02 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is the impact of climate change on...
+2026-04-03 09:08:02 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-03 09:08:06 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-03 09:08:06 - app.services.vector_store - INFO - Similarity search returned 5 results
+2026-04-03 09:08:06 - app.services.retrieval - INFO - Retrieved 5 chunks
+2026-04-03 09:08:06 - app.services.llm - INFO - Sending request to gpt-4o-mini
+2026-04-03 09:08:12 - app.api.query - INFO - Answer generated successfully
+2026-04-07 13:31:24 - app.main - INFO - ==================================================
+2026-04-07 13:31:24 - app.main - INFO - Starting DocuMind Backend
+2026-04-07 13:31:24 - app.main - INFO - ==================================================
+2026-04-07 13:31:24 - app.main - INFO - ✓ Environment variables loaded
+2026-04-07 13:31:24 - app.main - INFO -   - CHUNK_SIZE:      512
+2026-04-07 13:31:24 - app.main - INFO -   - CHUNK_OVERLAP:   50
+2026-04-07 13:31:24 - app.main - INFO -   - TOP_K_RESULTS:   5
+2026-04-07 13:31:24 - app.main - INFO -   - MAX_PDF_SIZE_MB: 20
+2026-04-07 13:31:24 - app.utils.db - INFO - Database tables initialized successfully
+2026-04-07 13:31:24 - app.main - INFO - ✓ Database initialized at ./data/metadata.db
+2026-04-07 13:31:24 - app.services.vector_store - INFO - FAISS index directory ready at data/faiss_index
+2026-04-07 13:31:24 - app.services.vector_store - INFO - Vector store loaded — 381 vectors, 0 soft-deleted
+2026-04-07 13:31:24 - app.main - INFO - ✓ Vector store initialized at ./data/faiss_index
+2026-04-07 13:31:24 - app.main - INFO -   - Vectors in index: 381
+2026-04-07 13:31:24 - app.main - INFO - ✓ Embeddings service initialized (text-embedding-3-small)
+2026-04-07 13:31:24 - app.main - INFO - ✓ LLM service initialized (gpt-4o-mini)
+2026-04-07 13:31:24 - app.main - INFO - ==================================================
+2026-04-07 13:31:24 - app.main - INFO - All services ready — application startup complete
+2026-04-07 13:31:24 - app.main - INFO - ==================================================
+2026-04-07 13:31:47 - app.api.documents - INFO - Listing documents
+2026-04-07 13:31:47 - app.api.documents - INFO - Found 2 documents
+2026-04-07 13:32:22 - app.api.query - INFO - Processing query: what is this document content about?...
+2026-04-07 13:32:22 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is this document content about?...
+2026-04-07 13:32:22 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-07 13:32:26 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-07 13:32:26 - app.services.vector_store - INFO - Similarity search returned 5 results
+2026-04-07 13:32:26 - app.services.retrieval - INFO - Retrieved 5 chunks
+2026-04-07 13:32:26 - app.services.llm - INFO - Sending request to gpt-4o-mini
+2026-04-07 13:32:30 - app.api.query - INFO - Answer generated successfully
+2026-04-07 13:36:15 - app.services.ingestion - INFO - PDF validation passed: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmp9ps4mf3t/2024053090.pdf (0.18 MB)
+2026-04-07 13:36:15 - app.services.ingestion - INFO - Extracting text from PDF: /var/folders/4t/3hthtvlx30l9df750jz_7rmw0000gn/T/tmp9ps4mf3t/2024053090.pdf
+2026-04-07 13:36:15 - app.services.ingestion - INFO - Extracted 4004 characters from PDF
+2026-04-07 13:36:15 - app.services.ingestion - INFO - Chunking text into pieces (target size: 512)
+2026-04-07 13:36:15 - app.services.ingestion - INFO - Created 9 chunks
+2026-04-07 13:36:15 - app.services.embeddings - INFO - Generating embeddings for 9 texts
+2026-04-07 13:36:17 - app.services.embeddings - INFO - Generated embeddings with shape: (9, 1536)
+2026-04-07 13:36:17 - app.services.vector_store - INFO - Added 9 chunks to vector store
+2026-04-07 13:36:17 - app.services.vector_store - INFO - Vector store persisted to data/faiss_index
+2026-04-07 13:36:17 - app.utils.db - INFO - Inserted document: eb908cc0-fdbd-403a-961d-8ce2b07e68c6 (2024053090.pdf)
+2026-04-07 13:36:17 - app.utils.db - INFO - Inserted 9 chunks for document: eb908cc0-fdbd-403a-961d-8ce2b07e68c6
+2026-04-07 13:36:17 - app.api.upload - INFO - Successfully processed document: eb908cc0-fdbd-403a-961d-8ce2b07e68c6
+2026-04-07 13:36:36 - app.api.query - INFO - Processing query: what is disaster management?...
+2026-04-07 13:36:36 - app.services.retrieval - INFO - Retrieving top 5 chunks for query: what is disaster management?...
+2026-04-07 13:36:36 - app.services.embeddings - INFO - Generating embeddings for 1 texts
+2026-04-07 13:36:40 - app.services.embeddings - INFO - Generated embeddings with shape: (1, 1536)
+2026-04-07 13:36:40 - app.services.vector_store - INFO - Similarity search returned 5 results
+2026-04-07 13:36:40 - app.services.retrieval - INFO - Retrieved 5 chunks
+2026-04-07 13:36:40 - app.services.llm - INFO - Sending request to gpt-4o-mini
+2026-04-07 13:36:48 - app.api.query - INFO - Answer generated successfully
