@@ -1,0 +1,22 @@
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# Data / Vector DB
+data/
+*.faiss
+*.pkl
+*.db
+
+# Node
+node_modules/
+dist/
