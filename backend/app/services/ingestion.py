@@ -3,10 +3,7 @@
 from typing import List
 import pdfplumber
 from pathlib import Path
-try:
-    from langchain_text_splitters import RecursiveCharacterTextSplitter
-except ImportError:
-    from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 
 from app.utils.logger import setup_logger
