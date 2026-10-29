@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { useDropzone } from 'react-dropzone';
+import { useDropzone, type FileRejection } from 'react-dropzone';
 import { useDocumentStore } from '../../store/useDocumentStore';
 import { uploadPdf } from '../../api/documents';
 import toast from 'react-hot-toast';
@@ -16,7 +16,7 @@ export const DropZone: React.FC = () => {
   const [validationError, setValidationError] = useState<string | null>(null);
 
   const onDrop = useCallback(
-    async (acceptedFiles: File[], rejectedFiles: any[]) => {
+    async (acceptedFiles: File[], rejectedFiles: FileRejection[]) => {
       setValidationError(null);
 
       // Handle rejected files
@@ -69,7 +69,7 @@ export const DropZone: React.FC = () => {
         setIsUploading(false);
       }
     },
-    [addDocument, isRebuilding, setIsUploading]
+    [addDocument, setIsUploading]
   );
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
