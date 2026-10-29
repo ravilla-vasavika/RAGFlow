@@ -2,4 +2,4 @@
 pytest
 ruff
 # starlette 0.27 (pinned by fastapi 0.104.1) TestClient breaks on httpx>=0.28; drop once fastapi is upgraded
-httpx<0.28
+httpx<0.29
